@@ -1,0 +1,29 @@
+
+<h1><b>Stack Overflow Troll</b></h1>
+
+
+
+<br>
+
+<hr>
+
+<h2>Newest Questions:</h2>
+<div class="row">
+  <ul>
+    <% @posts.each do |post| %>
+      <li>
+        <div class="col-md-4">
+        <br>
+            <b><%= post.username %></b>
+            <br>
+             <%= post.quetion %>
+            <br>
+          <p><strong>Question ID #000011211996<%= post.id %></strong></p>
+            <br>
+            <%= link_to "Answer Question", post_path(product) %>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+</div>
+    <button class="btn"><%= link_to "Ask Question", new_post_path %></button>

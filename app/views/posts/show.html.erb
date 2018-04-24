@@ -1,0 +1,45 @@
+
+<div class="col-md-4">
+
+  <h1><%= @post.username %></h1>
+  <h2><%= @post.question %></h2>
+  <br>
+  <br>
+  <button class="btn"><%= link_to "Edit Question", edit_post_path(@post) %></button>
+
+  <button class="btn">
+  <%= link_to "Delete Your Question?", post_path(@post),
+                    :data => {:confirm => "Are you sure?",
+                    :method => "delete"} %>
+                  </button>
+  <br>
+  <button class="btn btn-info">
+    <%= link_to "Add Comment", new_post_comment_path(@post) %>
+  </button>
+  <br>
+  <br>
+  <br>
+  <button class="btn btn-info">
+    <%= link_to "VIEW ALL QUESTIONS", posts_path %>
+  </button>
+</div>
+
+<div class="col-md-8">
+  <h3>Comments:</h3>
+  <% @comments.each do |comment| %>
+    <li style="list-style: none;">
+      <div class="well">
+        <b><%= comment.username %></b>
+        <br>
+        <%= comment.comment_body %>
+        <br>
+        <p><%= link_to "Edit", edit_post_comment_path(@post, comment) %></p>
+        <p><%= link_to "Delete", post_comment_path(@post, comment),
+                        :data => {:confirm => "Are you sure?",
+                                       :method => "delete"} %></p>
+
+      </div>
+    </li>
+  <% end %>
+</div>
+</div>
