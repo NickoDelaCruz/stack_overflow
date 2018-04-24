@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
 
   def index
-    @posts = Posts.all
+    @posts = Post.all
   end
 
   def new
@@ -9,7 +9,7 @@ class PostsController < ApplicationController
   end
 
   def create
-    @post = Post.new(params) #(params)
+    @post = Post.new(post_params) #(params)
     if @post.save
       flash[:notice] = "Your post is submitted"
       redirect_to posts_path
@@ -48,7 +48,7 @@ class PostsController < ApplicationController
     end
 
 private
-  def params
+  def post_params
     params.require(:post).permit(:username, :question)
   end
 end

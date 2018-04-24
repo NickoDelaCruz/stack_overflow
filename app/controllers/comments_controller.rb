@@ -15,7 +15,7 @@
 
     def create
       @post = Post.find(params[:post_id])
-      @comment = @post.comments.new(params)
+      @comment = @post.comments.new(comment_params)
       if @comment.save
         flash[:notice] = "Comment added"
         redirect_to post_path(@comment.post)
@@ -47,7 +47,7 @@
     end
 
     private
-    def params
+    def comment_params
       params.require(:comment).permit(:username, :comment_body)
     end
 

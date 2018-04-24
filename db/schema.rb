@@ -26,12 +26,16 @@ ActiveRecord::Schema.define(version: 2018_04_24_182904) do
   create_table "posts", force: :cascade do |t|
     t.string "username"
     t.string "question"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
     t.string "email"
     t.string "password_hash"
     t.string "password_salt"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
