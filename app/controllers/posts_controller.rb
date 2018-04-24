@@ -20,10 +20,10 @@ class PostsController < ApplicationController
 
   def show
     @post = Post.find(params[:id])
-    comment_id = @post.comment_id
+    # comment_id = @post.comment_id
     @comments = @post.comments
 
-    render :display
+    render :show
   end
 
   def edit
