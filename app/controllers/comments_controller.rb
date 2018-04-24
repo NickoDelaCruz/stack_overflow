@@ -46,4 +46,9 @@
       redirect_to post_path(@comment.post)
     end
 
+    private
+    def params
+      params.require(:comment).permit(:username, :comment_body)
+    end
+
   end
