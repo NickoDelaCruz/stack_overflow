@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 
-describe "it allows user to login" do
-  it "logs user in" do
+describe "it allows user to signup" do
+  it "creates an account for user" do
     visit signup_path
     fill_in('user[email]', :with => 'admin')
     fill_in('Password', :with => 'epicodus')
