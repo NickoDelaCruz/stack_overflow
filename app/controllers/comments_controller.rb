@@ -24,4 +24,9 @@
       end
     end
 
+    def edit
+      @post = Post.find(params[:post_id])
+      @comment = Comment.find(params[:id])
+    end
+
   end
