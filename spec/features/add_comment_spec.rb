@@ -15,19 +15,17 @@ describe "add comment" do
     click_link 'Answer Question'
 
     click_button 'Add Comment'
+    save_and_open_page
+    fill_in 'comment_username', with: 'Admin'
 
-
-
-    fill_in 'Username', :with => 'Admin'
-
-    fill_in 'Comment_body', :with => 'Kamehamehaaaadsaiufhdskajfhds;jakfh;dsakjhfk;jsadhfk;jsdahf;kjsdahfiashfsdahfsdiuafhsiuadhfpisuahfsfsadif'
+    fill_in 'Comment_body', :with => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis consequat gravida. Maecenas mattis purus sit amet suscipit pellentesque. Mauris vulputate condimentum pellentesque. Sed et consequat arcu. Vivamus nec porttitor turpis. Nullam hendrerit nunc felis. Cras eu leo eget eros dignissim posuere. Quisque dictum faucibus sapien vel sollicitudin.'
     click_button 'Create Comment'
 
 
 
-    expect(page).to have_content 'Admin'
+    expect(page).to have_content 'Comment added'
 
-        save_and_open_page
+
 
   end
 end

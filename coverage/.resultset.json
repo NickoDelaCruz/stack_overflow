@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/stack_clone/spec/features/add_comment_spec.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/spec/features/add_comment_spec.rb": [
         1,
         null,
         1,
@@ -20,6 +20,7 @@
         null,
         1,
         null,
+        1,
         null,
         null,
         1,
@@ -31,12 +32,12 @@
         null,
         0,
         null,
-        0,
+        null,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/spec/rails_helper.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -104,14 +105,14 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/config/environment.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/stack_clone/config/application.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/application.rb": [
         1,
         null,
         1,
@@ -146,13 +147,13 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/config/boot.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/boot.rb": [
         1,
         null,
         1,
         1
       ],
-      "/Users/Guest/Desktop/stack_clone/config/environments/test.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/environments/test.rb": [
         1,
         null,
         null,
@@ -200,7 +201,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/config/initializers/application_controller_renderer.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -210,7 +211,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/config/initializers/assets.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -226,7 +227,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/config/initializers/backtrace_silencers.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -235,7 +236,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/config/initializers/content_security_policy.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/initializers/content_security_policy.rb": [
         null,
         null,
         null,
@@ -262,20 +263,20 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/config/initializers/cookies_serializer.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/initializers/cookies_serializer.rb": [
         null,
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/stack_clone/config/initializers/filter_parameter_logging.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/stack_clone/config/initializers/inflections.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -293,13 +294,13 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/config/initializers/mime_types.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/config/initializers/wrap_parameters.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -315,19 +316,19 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/app/channels/application_cable/channel.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/app/channels/application_cable/channel.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/app/channels/application_cable/connection.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/app/channels/application_cable/connection.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/app/controllers/application_controller.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/app/controllers/application_controller.rb": [
         1,
         1,
         1,
@@ -347,11 +348,11 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/app/helpers/application_helper.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/app/controllers/comments_controller.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/app/controllers/comments_controller.rb": [
         1,
         1,
         1,
@@ -408,7 +409,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/app/controllers/posts_controller.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/app/controllers/posts_controller.rb": [
         1,
         1,
         1,
@@ -464,7 +465,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/app/controllers/sessions_controller.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/app/controllers/sessions_controller.rb": [
         1,
         1,
         2,
@@ -485,7 +486,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/app/controllers/users_controller.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/app/controllers/users_controller.rb": [
         1,
         null,
         1,
@@ -511,22 +512,22 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/app/jobs/application_job.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/app/jobs/application_job.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/app/mailers/application_mailer.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/app/mailers/application_mailer.rb": [
         1,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/stack_clone/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/app/models/comment.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "C:/Users/Nicko/Desktop/stack_overflow/app/models/comment.rb": [
         1,
         1,
         1,
@@ -535,14 +536,14 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/app/models/post.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/app/models/post.rb": [
         1,
         1,
         1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/app/models/user.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/app/models/user.rb": [
         1,
         1,
         1,
@@ -564,7 +565,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/config/routes.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/config/routes.rb": [
         1,
         1,
         1,
@@ -578,7 +579,7 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/spec/features/add_post_error_spec.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/spec/features/add_post_error_spec.rb": [
         1,
         null,
         1,
@@ -600,10 +601,10 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/spec/features/create_post_with_acc_spec.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/spec/features/create_post_with_acc_spec.rb": [
 
       ],
-      "/Users/Guest/Desktop/stack_clone/spec/features/login_spec.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/spec/features/login_spec.rb": [
         1,
         null,
         null,
@@ -616,7 +617,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/spec/features/sign_up_spec.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/spec/features/sign_up_spec.rb": [
         1,
         null,
         null,
@@ -636,7 +637,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/spec/models/comment_spec.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/spec/models/comment_spec.rb": [
         1,
         null,
         1,
@@ -647,7 +648,7 @@
         2,
         null
       ],
-      "/Users/Guest/Desktop/stack_clone/spec/models/post_spec.rb": [
+      "C:/Users/Nicko/Desktop/stack_overflow/spec/models/post_spec.rb": [
         1,
         null,
         1,
@@ -656,6 +657,6 @@
         null
       ]
     },
-    "timestamp": 1524613962
+    "timestamp": 1524627241
   }
 }
